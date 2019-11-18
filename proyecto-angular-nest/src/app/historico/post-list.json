@@ -1,0 +1,14 @@
+{
+    "post-list": [
+        {
+            "id": 1,
+            "author": "Malfurion",
+            "content": "Soy un llorón bablabla"
+        },
+        {
+            "id": 2,
+            "author": "Arthas",
+            "content": "¡Maldito seas Mal'Ganis!"
+        }
+    ]
+}

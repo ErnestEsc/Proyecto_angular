@@ -1,0 +1,26 @@
+header {
+    display: flex;
+    flex-direction: row;
+    min-height: 100%;
+  }
+
+header > input {
+    background-color: rgb(76, 175, 125);
+    border: none;
+    color: white;
+    padding: 20px 10px;
+    margin-left: 0,5%;
+    width: 20vw;
+    height: 10vh;
+    transform:rotate(45deg);
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: teal;
+    color:white;
+}
