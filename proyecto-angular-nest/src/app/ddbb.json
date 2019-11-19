@@ -1,4 +1,11 @@
 {
+    "user-info": [
+        {
+            "name": "Arthas",
+            "surname": "Menethil",
+            "img": "/assets/profile.png"
+        }
+    ],
     "post-list": [
         {
             "id": 1,
@@ -9,13 +16,6 @@
             "id": 2,
             "author": "Arthas",
             "content": "¡Maldito seas Mal'Ganis!"
-        }
-    ],
-    "user-info": [
-        {
-            "name": "Arthas",
-            "surname": "Menethil",
-            "img": "/assets/profile.png"
         }
     ]
 }
