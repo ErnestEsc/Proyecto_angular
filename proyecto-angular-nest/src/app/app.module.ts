@@ -9,6 +9,8 @@ import { ColegasComponent } from './colegas/colegas.component';
 import { EventosComponent } from './eventos/eventos.component';
 import { PerfilComponent } from './perfil/perfil.component';
 import { NotfoundComponent } from './notfound/notfound.component';
+import { HttpClientModule } from '@angular/common/http';
+import { PerfilService } from './perfil/perfil.service';
 
 @NgModule({
   declarations: [
@@ -23,9 +25,10 @@ import { NotfoundComponent } from './notfound/notfound.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    routing
+    routing,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [PerfilService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

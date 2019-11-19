@@ -1,0 +1,28 @@
+/* #banner {
+    height: 100%;
+    width: 95%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    position: absolute;
+} */
+
+section {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(151, 151, 151);
+}
+
+img {
+    margin: 2% 2% 2% 2%;
+    border: 5px double gold;
+}
+
+ul {
+    list-style-type: none;    
+}
+li {
+    display: block;
+}

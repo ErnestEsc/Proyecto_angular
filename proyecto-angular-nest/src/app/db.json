@@ -1,16 +1,17 @@
 {
-    "user-info": [
+    "user-info": 
         {
             "name": "Arthas",
             "surname": "Menethil",
-            "img": "/assets/profile.png"
-        }
-    ],
+            "peer": "Príncipe de Lordaeron y Rey Lich Junior",
+            "profile": "/assets/profile.png",
+            "banner": "/assets/banner.png"
+        },
     "post-list": [
         {
             "id": 1,
             "author": "Malfurion",
-            "content": "Soy un llorón bablabla"
+            "content": "¿Dónde estás Tyrande?"
         },
         {
             "id": 2,

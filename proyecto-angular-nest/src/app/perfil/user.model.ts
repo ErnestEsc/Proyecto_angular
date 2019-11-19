@@ -1,6 +1,7 @@
-export class user {
+export class User {
     name: string;
     surname: string;
-    img: string;
+    profile: string;
+    banner: string;
     
 }

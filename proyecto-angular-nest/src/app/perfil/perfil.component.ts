@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { user } from './user.model';
+import { User } from './user.model';
+import { PerfilService } from './perfil.service';
 
 @Component({
   selector: 'app-perfil',
@@ -8,11 +9,16 @@ import { user } from './user.model';
 })
 export class PerfilComponent implements OnInit {
 
-  perfil: user;
+  perfil: User;
 
-  constructor() {  }
+  constructor(private perfilService: PerfilService) {  }
 
   ngOnInit() {
+    this.perfilService.getPerfil()
+        .subscribe((datos: User) => this.perfil = datos,
+                      error => console.error(error),
+                      () => console.log('Perfil cargado') 
+                  );
   }
 
 }
