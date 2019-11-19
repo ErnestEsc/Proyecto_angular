@@ -11,6 +11,7 @@ import { PerfilComponent } from './perfil/perfil.component';
 import { NotfoundComponent } from './notfound/notfound.component';
 import { HttpClientModule } from '@angular/common/http';
 import { PerfilService } from './perfil/perfil.service';
+import { HistoricoService } from './historico/historico.service';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,7 @@ import { PerfilService } from './perfil/perfil.service';
     routing,
     HttpClientModule
   ],
-  providers: [PerfilService],
+  providers: [PerfilService, HistoricoService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,4 +1,18 @@
-<h1>¡Feed de tus amigos!</h1>
-<ul>
+<section>
+    <h1>¡Quéjate!</h1>
+    <form >
+        <input type="text">
+    </form>
+</section>
+<section>
+    <h1>¡Feed de tus amigos!</h1>
     
-</ul>
+    <ul>
+        <li *ngFor="let post of historico">
+            <p>Post nº {{post.id}}</p>
+            <p>De {{post.author}}</p>
+            <p>Post: {{post.content}}</p>
+    
+        </li>
+    </ul>
+</section>
