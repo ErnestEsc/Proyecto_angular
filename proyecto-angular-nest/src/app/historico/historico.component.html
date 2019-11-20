@@ -1,7 +1,9 @@
 <section>
     <h1>¡Quéjate!</h1>
     <form >
-        <input type="text">
+        <input type="text" placeholder="Un penique por tus pensamientos..." name="content" 
+            [(ngModel)]="mensaje" required>
+        <input type="submit" (click)="addPost()">
     </form>
 </section>
 <section>
@@ -9,9 +11,9 @@
     
     <ul>
         <li *ngFor="let post of historico">
-            <p>Post nº {{post.id}}</p>
-            <p>De {{post.author}}</p>
-            <p>Post: {{post.content}}</p>
+            <p>Post nº {{post?.id}}</p>
+            <p>De {{post?.author}}</p>
+            <p>Post: {{post?.content}}</p>
     
         </li>
     </ul>

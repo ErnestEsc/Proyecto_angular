@@ -1,22 +1,54 @@
 {
-    "user-info": 
-        {
-            "name": "Arthas",
-            "surname": "Menethil",
-            "peer": "Príncipe de Lordaeron y Rey Lich Junior",
-            "profile": "/assets/profile.png",
-            "banner": "/assets/banner.png"
-        },
-    "post-list": [
-        {
-            "id": 1,
-            "author": "Malfurion",
-            "content": "¿Dónde estás Tyrande?"
-        },
-        {
-            "id": 2,
-            "author": "Arthas",
-            "content": "¡Maldito seas Mal'Ganis!"
-        }
-    ]
+  "user-info": {
+    "name": "Arthas",
+    "surname": "Menethil",
+    "peer": "Príncipe de Lordaeron y Rey Lich Junior",
+    "profile": "/assets/profile.png",
+    "banner": "/assets/banner.png"
+  },
+  "post-list": [
+    {
+      "id": 1,
+      "author": "Malfurion",
+      "content": "¿Dónde estás Tyrande?"
+    },
+    {
+      "id": 2,
+      "author": "Arthas",
+      "content": "¡Maldito seas Mal'Ganis!"
+    },
+    {
+      "id": 3871,
+      "author": "Tú"
+    },
+    {
+      "id": 9156,
+      "author": "Tú"
+    },
+    {
+      "id": 6938,
+      "author": "Tú",
+      "content": "lalalala"
+    },
+    {
+      "id": 8956,
+      "author": "Tú",
+      "content": "ki"
+    },
+    {
+      "id": 626,
+      "author": "Tú",
+      "content": "ki"
+    },
+    {
+      "id": 4312,
+      "author": "Tú",
+      "content": "upgrade"
+    },
+    {
+      "id": 5476,
+      "author": "Tú",
+      "content": "duhiufds"
+    }
+  ]
 }

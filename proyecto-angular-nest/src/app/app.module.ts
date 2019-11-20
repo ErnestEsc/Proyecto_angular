@@ -12,6 +12,7 @@ import { NotfoundComponent } from './notfound/notfound.component';
 import { HttpClientModule } from '@angular/common/http';
 import { PerfilService } from './perfil/perfil.service';
 import { HistoricoService } from './historico/historico.service';
+import { FormsModule } from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { HistoricoService } from './historico/historico.service';
     BrowserModule,
     AppRoutingModule,
     routing,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [PerfilService, HistoricoService],
   bootstrap: [AppComponent]
