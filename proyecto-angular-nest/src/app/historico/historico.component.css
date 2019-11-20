@@ -1,0 +1,51 @@
+#addPost {
+    background-color: mediumseagreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#inputPost {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: lightsteelblue;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#feed {
+    background-color: lightskyblue;
+}
+
+ul {
+    list-style-type: none;
+    width: 50%;
+    margin: 2% 25%;
+}
+
+li {
+    background-color: grey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.id {
+    color: rgb(2, 2, 150);
+}
+.autor {
+    color: rgb(212, 0, 0);
+}
+.mensaje {
+    color: rgb(179, 138, 255);
+}

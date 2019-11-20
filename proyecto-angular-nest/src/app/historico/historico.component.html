@@ -1,19 +1,19 @@
-<section>
+<section id="addPost">
     <h1>¡Quéjate!</h1>
     <form >
-        <input type="text" placeholder="Un penique por tus pensamientos..." name="content" 
-            [(ngModel)]="mensaje" required>
+        <input type="field" placeholder="Un penique por tus pensamientos..." name="content" 
+            [(ngModel)]="mensaje" required id="inputPost"> 
         <input type="submit" (click)="addPost()">
     </form>
 </section>
-<section>
+<section id="feed">
     <h1>¡Feed de tus amigos!</h1>
     
     <ul>
         <li *ngFor="let post of historico">
-            <p>Post nº {{post?.id}}</p>
-            <p>De {{post?.author}}</p>
-            <p>Post: {{post?.content}}</p>
+            <p>Post nº <span class="id">{{post?.id}}</span></p>
+            <p>De <span class="autor">{{post?.author}}</span></p>
+            <p>Dijo: <span class="mensaje">{{post?.content}}</span></p>
     
         </li>
     </ul>
