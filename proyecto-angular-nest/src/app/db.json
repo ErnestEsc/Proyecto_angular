@@ -1,11 +1,60 @@
 {
   "user-info": {
-    "name": "Arthas",
-    "surname": "Menethil",
+    "name": "El Chocu",
+    "surname": "tere",
     "peer": "Príncipe de Lordaeron y Rey Lich Junior",
-    "profile": "/assets/profile.png",
-    "banner": "/assets/banner.png"
+    "profile": "/assets/profile.png"
   },
+  "users": [
+    {
+      "id": 1,
+      "name": "El Chocu",
+      "surname": "Caracas",
+      "peer": "Príncipe de Lordaeron y Rey Lich Junior",
+      "profile": "/assets/profile.png"
+    },
+    {
+      "id": 2,
+      "name": "Malfurion",
+      "surname": "Tempestira",
+      "peer": "Archidruida y fracaso de vida",
+      "profile": "/assets/malfurion.png"
+    },
+    {
+      "id": 3,
+      "name": "Jaina",
+      "surname": "Proudmore",
+      "peer": "Aprendiz del Kirito",
+      "profile": "/assets/jaina.png"
+    },
+    {
+      "id": 4,
+      "name": "Mal'ganis",
+      "surname": "",
+      "peer": "Señor de la droga",
+      "profile": "/assets/malganis.png"
+    }
+  ],
+  "requests": [
+    {
+      "id": 1,
+      "state": "ACCEPTED",
+      "fromUserId": 1,
+      "toUserId": 3
+    },
+    {
+      "id": 2,
+      "state": "SENT",
+      "fromUserId": 2,
+      "toUserId": 1
+    },
+    {
+      "id": 3,
+      "state": "ACCEPTED",
+      "fromUserId": 4,
+      "toUserId": 1
+    }
+  ],
   "post-list": [
     {
       "id": 1,
@@ -18,41 +67,9 @@
       "content": "¡Maldito seas Mal'Ganis!"
     },
     {
-      "id": 3871,
-      "author": "Tú"
-    },
-    {
-      "id": 9156,
-      "author": "Tú"
-    },
-    {
-      "id": 6938,
+      "id": 9961,
       "author": "Tú",
-      "content": "lalalala"
-    },
-    {
-      "id": 8956,
-      "author": "Tú",
-      "content": "ki"
-    },
-    {
-      "id": 626,
-      "author": "Tú",
-      "content": "ki"
-    },
-    {
-      "id": 4312,
-      "author": "Tú",
-      "content": "upgrade"
-    },
-    {
-      "id": 5476,
-      "author": "Tú",
-      "content": "duhiufds"
-    },
-    {
-      "id": 5635,
-      "author": "Tú"
+      "content": "holll"
     }
   ]
 }

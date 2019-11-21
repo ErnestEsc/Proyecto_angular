@@ -21,4 +21,8 @@ export class PerfilComponent implements OnInit {
                   );
   }
 
+  updatePerfil(update) {
+    this.perfil = update;
+  }
+
 }

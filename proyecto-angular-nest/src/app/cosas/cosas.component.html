@@ -1,1 +1,10 @@
-<p>cosas works!</p>
+<h2>Venga chaval actualiza esto</h2>
+<form *ngIf="perfil">
+    <input type="field" placeholder="Tu nombre" name="name" 
+            [(ngModel)]="perfil.name" required> 
+    <input type="field" placeholder="Tu apellido" name="surname" 
+            [(ngModel)]="perfil.surname" required>
+    <input type="field" placeholder="Tu foto" name="profile" 
+            [(ngModel)]="perfil.profile" required>
+    <input type="submit" (click)="actualizarPerfil(perfil)">  
+</form>

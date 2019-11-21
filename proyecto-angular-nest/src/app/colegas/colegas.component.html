@@ -1,1 +1,29 @@
-<p>colegas works!</p>
+<h2>Mij colegash</h2>
+<section>
+    <form action="/action_page.php">
+        <input type="text" placeholder="Search.." name="search" class="search">
+        <button type="submit" class="searchButton">ツ</button>
+    </form>
+</section>
+<section class="sectionData">
+    <ul>
+        <span>Coleguines:</span>
+        <li *ngFor="let user of users">
+            <span id="thumbnailSpan"></span>
+            <p>{{user.id}}<img src="{{user.profile}}" id="thumbnail"></p> 
+            <p>{{user.name}}</p>
+            <p>{{user.surname}}</p>        
+            <p>{{user.peer}}</p>
+        </li>
+    </ul>
+    <ul>
+        <span>Peticiones:</span>
+        <li *ngFor="let request of requests">
+            <p>Nº {{request.id}}</p>
+            <p>Estado: {{request.state}}</p>
+            <p>De: {{request.fromUserId}}</p>
+            <p>Para: {{request.toUserId}}</p>
+
+        </li>
+    </ul>
+</section>
